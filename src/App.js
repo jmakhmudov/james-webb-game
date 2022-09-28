@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, {useState, useEffect} from 'react';
 import CircleLoader from "react-spinners/CircleLoader";
+import { TypeAnimation } from 'react-type-animation';
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -14,8 +15,20 @@ function App() {
     }, 5000)
   }, [])
 
-  const loadingHtml = (<div><CircleLoader color="#36d7b7" />
-  <p>Flying through interstellar space</p></div>)
+  const loadingHtml = (
+    <div className='preloader'>
+      <CircleLoader color="#ffffff" />
+      <TypeAnimation
+      sequence={[
+        "Flying through interstellar space",
+        5000
+      ]}
+      wrapper="div"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '2vh', color: 'white' }}
+      />
+    </div>)
 
   return (
     <div className="App">
