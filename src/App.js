@@ -1,6 +1,7 @@
 import './styles/App.css';
 import React, {useState, useEffect} from 'react';
 import Loading from './components/Loading';
+import StartMission from './components/StartMission';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
         <Loading />
         :
         <header className="App-header">
-          <h1>Working</h1>
+          <StartMission />
         </header>
       }
       </div>
