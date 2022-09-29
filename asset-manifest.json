@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/james-webb-game/static/css/main.9e70fa67.css",
-    "main.js": "/james-webb-game/static/js/main.cda1987f.js",
+    "main.js": "/james-webb-game/static/js/main.4766ccdc.js",
     "index.html": "/james-webb-game/index.html",
     "main.9e70fa67.css.map": "/james-webb-game/static/css/main.9e70fa67.css.map",
-    "main.cda1987f.js.map": "/james-webb-game/static/js/main.cda1987f.js.map"
+    "main.4766ccdc.js.map": "/james-webb-game/static/js/main.4766ccdc.js.map"
   },
   "entrypoints": [
     "static/css/main.9e70fa67.css",
-    "static/js/main.cda1987f.js"
+    "static/js/main.4766ccdc.js"
   ]
 }
