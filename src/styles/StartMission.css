@@ -1,5 +1,13 @@
-.start-nission {
+.start-mission {
     position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn ease-in 5000ms backwards;
+    background-repeat: none;
+    background-position: center;
 }
 
 .onegate {
