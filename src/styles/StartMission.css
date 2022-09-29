@@ -11,6 +11,7 @@
     font-weight: 100;
     font-size: 14px;
     animation: fadeIn ease-in 5000ms backwards;
+    width: 100%;
 }
 
 .onegate span {
