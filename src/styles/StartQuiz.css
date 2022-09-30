@@ -44,6 +44,16 @@
 
 .mission-description p {
     margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 16px;
+    color: #767676;
+}
+
+.mission-description .main-mission {
+    font-family: Chakra Petch;
+    font-weight: 200;
+    font-size: 32px;
+    color: white;
 }
 
 .play-btn {
@@ -56,12 +66,6 @@
     height: 40px;
     font-weight: 500;
     font-size: 20px;
-}
-
-.mission-description p {
-    font-weight: 100;
-    font-size: 16px;
-    color: #767676;
 }
 
 .footer {
@@ -90,12 +94,33 @@
     }
     
     @media screen and (max-width: 767px) {
-        
+        .mission-description {
+            width: 80vw;
+        }
+
+        .mission-description .main-mission {
+            font-size: 24px;
+        }
+
+        .mission-description p {
+            font-size: 16px;
+        }
     
     }
     
     @media screen and (max-width: 479px) {
-    /* стили для телефонов - начало */
+        .mission-description {
+            width: 80vw;
+        }
+
+        .mission-description .main-mission {
+            font-size: 24px;
+        }
+
+        .mission-description p {
+            font-size: 12px;
+        }
+        
     
     }
     

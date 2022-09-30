@@ -1,6 +1,5 @@
 import React from "react";
 import '../styles/StartQuiz.css';
-import { TypeAnimation } from 'react-type-animation';
 import TypeAnim from "./TypeAnim";
 
 export default function StartQuiz() {
@@ -21,17 +20,7 @@ export default function StartQuiz() {
             <div className="main-box">
                 <div className="mission-description">
                     <p>Answer questions to complete rhe mission</p>
-                    <TypeAnimation
-                        sequence={[
-                            "Your mission is to find the first galaxies that formed in the early universe and peer through dusty clouds to see stars forming planetary systems.",
-                            5000
-                        ]}
-                        wrapper="div"
-                        cursor={true}
-                        repeat={Infinity}
-                        style={{ fontSize: '2em', color: 'white', fontWeight: "300", fontFamily: 'Chakra Petch' }}
-                        className='main-mission'
-                    />
+                    <p className="main-mission">Your mission is to find the first galaxies that formed in the early universe and peer through dusty clouds to see stars forming planetary systems.</p>
                 </div>
 
                 <button className="play-btn">
