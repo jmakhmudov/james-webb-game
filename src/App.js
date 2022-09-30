@@ -18,10 +18,11 @@ function App() {
   return (
     <div className="App">
       {
-        loading ?<Loading />:<div></div>}
+        loading ?<Loading />:
         <header className="App-header">
           <StartMission />
         </header>
+        }
   
       </div>
   );
