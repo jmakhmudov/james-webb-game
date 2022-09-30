@@ -5,6 +5,8 @@
     align-items: center;
     justify-content: center;
     background: #020201;
+    position: fixed;
+    position: 0 0 0 0;
 }
 
 .preloader {
