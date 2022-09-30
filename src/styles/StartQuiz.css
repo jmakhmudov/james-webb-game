@@ -1,0 +1,101 @@
+.start-quiz {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn ease-in 4000ms backwards;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  }
+
+.logo,
+.footer {
+    position: fixed;
+}
+
+.logo {
+    right: 45%;
+    left: 45%;
+    top: 25px;
+}
+
+.logo p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mission-description {
+    width: 50vw;
+    margin-bottom: 40px;
+}
+
+.mission-description p {
+    margin-bottom: 10px;
+}
+
+.play-btn {
+    background: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.mission-description p {
+    font-weight: 100;
+    font-size: 16px;
+    color: #767676;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    position: fixed;
+    bottom: 25px;
+    left: 50px;
+    right: 50px;
+}
+
+.onegate-quiz {
+    text-align: right;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.onegate-quiz span {
+    font-weight: 400;
+}
+
+@media screen and (max-width: 991px) {
+    /* стили для больших планшетов - начало */
+    
+    }
+    
+    @media screen and (max-width: 767px) {
+        
+    
+    }
+    
+    @media screen and (max-width: 479px) {
+    /* стили для телефонов - начало */
+    
+    }
+    

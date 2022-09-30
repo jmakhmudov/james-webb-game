@@ -3,7 +3,6 @@ import React, {useState, useEffect} from 'react';
 import Loading from './components/Loading';
 import StartMission from './components/StartMission';
 
-
 function App() {
     const [loading, setLoading] = useState(false)
 
