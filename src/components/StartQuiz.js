@@ -31,7 +31,7 @@ export default function StartQuiz() {
 
                     <div className="main-box">
                         <div className="mission-description">
-                            <p>Answer questions to complete rhe mission</p>
+                            <p>Answer questions to complete the mission</p>
                             <p className="main-mission">Your mission is to find the first galaxies that formed in the early universe and peer through dusty clouds to see stars forming planetary systems.</p>
                         </div>
 
