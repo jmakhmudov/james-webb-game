@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadeIn ease-in 4000ms backwards;
+    animation: fadeIn ease-in 2000ms backwards;
 }
 
 @keyframes fadeIn {
@@ -13,20 +13,23 @@
     }
   }
 
-.logo,
 .footer {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    position: fixed;
+    bottom: 25px;
+    left: 50px;
+    right: 50px;
 }
 
-.logo {
-    right: 45%;
-    left: 45%;
+.logo-box {
+    width: 100vw;
+    position: fixed;
     top: 25px;
-}
-
-.logo p {
-    font-weight: 500;
-    font-size: 20px;
+    right: 0;
+    left: 0;
 }
 
 .main-box {
@@ -35,6 +38,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 50vw;
 }
 
 .mission-description {
@@ -66,16 +70,14 @@
     height: 40px;
     font-weight: 500;
     font-size: 20px;
+    transition: 500ms;
+    cursor: pointer;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items:flex-end;
-    position: fixed;
-    bottom: 25px;
-    left: 50px;
-    right: 50px;
+.play-btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.378);
 }
 
 .onegate-quiz {

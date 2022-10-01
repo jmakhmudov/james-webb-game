@@ -15,7 +15,7 @@ export default function StartMission() {
                 <StartQuiz/>
                 :
                 <div className="start-mission" style={{
-                    background: `url('${process.env.PUBLIC_URL}/images/bc23.png')`,
+                    background: `url('${process.env.PUBLIC_URL}/images/bckg3.png')`,
                     backgroundPosition: "bottom center",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover"}}>

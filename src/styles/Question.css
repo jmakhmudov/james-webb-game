@@ -1,0 +1,20 @@
+.question {
+    font-family: Chakra Petch;
+    font-weight: 200;
+    font-size: 32px;
+    color: white;
+}
+
+.answers-box {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.question-box .play-btn {
+    width: 250px;
+}
