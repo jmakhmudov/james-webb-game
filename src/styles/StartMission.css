@@ -25,7 +25,8 @@
 
 .start-btn{
     font-weight: 500;
-    font-size: 28px;
+    font-size: 50px;
+    letter-spacing: 10px;
     cursor: pointer;
     -webkit-user-select: none;
     -khtml-user-select: none;

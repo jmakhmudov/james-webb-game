@@ -3,10 +3,11 @@ const factsData = [
         id: 1,
         question: "How much did it cost to build JWST?",
         imgName: "NAME.png",
+        explanation: "The program of James Webb Space Telescope was plagued with enormous cost overruns and delays. A major redesign in 2005 led to the current approach, with the construction completed in 2016 at a total cost of USD 10 billion.",
         answers: [
             {
                 description: "10 billion dollars.",
-                correct: true //The program of the James Webb Space Telescope was plagued with enormous cost overruns and delays. A major redesign in 2005 led to the current approach, with the construction completed in 2016 at a total cost of USD 10 billion.
+                correct: true 
             },
             {
                 description: "25 million dollars.",
@@ -27,6 +28,7 @@ const factsData = [
         id: 2,
         question: "JWST is named after James Webber, famous site layout designer.",
         imgName: "NAME.png",
+        explanation: "JWST is named after James Edwin Webb, the second head of NASA responsible for Apollo mission’s success.",
         answers: [
             {
                 description: "True",
@@ -39,26 +41,28 @@ const factsData = [
         ]
     },
 
-    {
-        id: 3,
-        question: "JWST is named after James Edwin Webb, the second head of NASA responsible for Apollo mission’s success.",
-        imgName: "NAME.png",
-        answers: [
-            {
-                description: "True",
-                correct: true
-            },
-            {
-                description: "False",
-                correct: false
-            },
-        ]
-    },
+    // {
+    //     id: 3,
+    //     question: "JWST is named after James Edwin Webb, the second head of NASA responsible for Apollo mission’s success.",
+    //     imgName: "NAME.png",
+    //     explanation: "",
+    //     answers: [
+    //         {
+    //             description: "True",
+    //             correct: true
+    //         },
+    //         {
+    //             description: "False",
+    //             correct: false
+    //         },
+    //     ]
+    // },
 
     {
         id: 4,
         question: "When did JWST get launched into space?",
         imgName: "NAME.png",
+        explanation: "JWST launched from the Guiana Space Centre in Kourou, France, as scheduled at 12:20 UTC on 25 December 2021",
         answers: [
             {
                 description: "1977’s.",
@@ -83,6 +87,8 @@ const factsData = [
         id: 5,
         question: "JWST is the biggest space telescope ever launched.",
         imgName: "NAME.png",
+        explanation: "The largest space telescope with the largest mirror (a segmented mirror with a total diameter of 6.5 meters, but the largest monolithic mirror remains at the Herschel telescope — 3.5 meters) ever launched by mankind",
+        
         answers: [
             {
                 description: "True",
@@ -99,6 +105,7 @@ const factsData = [
         id: 6,
         question: "At first, they wanted to name it Next Generation Space Telescope.",
         imgName: "NAME.png",
+        explanation: "It was originally called the New Generation Space Telescope NGST. In 2002, it was renamed in honor of the second head of NASA, James Webb (1906-1992).",
         answers: [
             {
                 description: "True",
@@ -115,6 +122,7 @@ const factsData = [
         id: 7,
         question: "JWST was too big to fit into a rocket in working order. Then how did scientists make the rocket hold JWST?",
         imgName: "NAME.png",
+        explanation: "The telescope was designed to be folded twelve times so that it fit within launch rocket's payload fairing, which is 4.57 m (15.0 ft) in diameter, and 16.19 m (53.1 ft) long.",
         answers: [
             {
                 description: "JWST doesn't need any launch rocket, the telescope can take off by itself.",
@@ -129,8 +137,9 @@ const factsData = [
     
     {
         id: 8,
-        question: "JWST's main mission goal is to search for light from the first stars and galaxies that formed after the Big Bang.",
+        question: "JWST's one of mission goals is to search for light from the first stars and galaxies that formed after the Big Bang.",
         imgName: "NAME.png",
+        explanation: "The James Webb Space Telescope has four key goals: to search for light from the first stars and galaxies that formed in the universe after the Big Bang; to study galaxy formation and evolution; to understand star formation and planet formation; to study planetary systems and the origins of life.",
         answers: [
             {
                 description: "True",
@@ -147,6 +156,7 @@ const factsData = [
         id: 9,
         question: "JWST's one of the mission goals is to search for aliens on Mars.",
         imgName: "NAME.png",
+        explanation: "The James Webb Space Telescope has four key goals: to search for light from the first stars and galaxies that formed in the universe after the Big Bang; to study galaxy formation and evolution; to understand star formation and planet formation; to study planetary systems and the origins of life.",
         answers: [
             {
                 description: "True",
@@ -163,6 +173,7 @@ const factsData = [
         id: 10,
         question: "JWST's one of the mission goals is to study galaxy formation and evolution",
         imgName: "NAME.png",
+        explanation: "The James Webb Space Telescope has four key goals: to search for light from the first stars and galaxies that formed in the universe after the Big Bang; to study galaxy formation and evolution; to understand star formation and planet formation; to study planetary systems and the origins of life.",
         answers: [
             {
                 description: "True",
@@ -179,6 +190,7 @@ const factsData = [
         id: 11,
         question: "JWST's one of the mission goals is studying the dark side of the Moon.",
         imgName: "NAME.png",
+        explanation: "The James Webb Space Telescope has four key goals: to search for light from the first stars and galaxies that formed in the universe after the Big Bang; to study galaxy formation and evolution; to understand star formation and planet formation; to study planetary systems and the origins of life.",
         answers: [
             {
                 description: "True",
@@ -196,6 +208,7 @@ const factsData = [
         id: 12,
         question: "Who or what is Ariane-5?",
         imgName: "NAME.png",
+        explanation: "Ariane 5 is a European heavy-lift space launch vehicle developed and operated by Arianespace for the European Space Agency (ESA), was used in JWST launch.",
         answers: [
             {
                 description: "5th daughter of James Webb.",
@@ -213,13 +226,14 @@ const factsData = [
         id: 13,
         question: "JWST made photos of space objects that only existed millions of years ago, how is this possible?",
         imgName: "NAME.png",
+        explanation: "The further away the object in space is, the further into the past we see it from the telescope.",
         answers: [
             {
                 description: "JWST is so powerful, that it can see the past and the future.",
                 correct: false
             },
             {
-                description: "JWST took photos of the light that comes millions of light years ago.",
+                description: "JWST cathes the light that has been emitted millions of years ago.",
                 correct: true
             },
         ]
@@ -229,6 +243,7 @@ const factsData = [
         id: 14,
         question: "NASA believe, that JWST will work for ...?",
         imgName: "NAME.png",
+        explanation: "The Webb team has analyzed telescope's initial trajectory and determined the observatory should have enough fuel to allow support of science operations in orbit for significantly more than a 10-year science lifetime.(The minimum baseline for the mission is five years.)",
         answers: [
             {
                 description: "3 months.",
@@ -243,8 +258,8 @@ const factsData = [
                 correct: false
             },
             {
-                description: "5-10 years.",
-                correct: true // The mission duration of the James Webb Space Telescope to investigate across the fields of astronomy and cosmology is 5-10 years
+                description: "Minimum for 5 years.",
+                correct: true
             },
         ]
     },
@@ -256,6 +271,7 @@ const factsData = [
         id: 15,
         question: "Which celestial body does JWST orbit?",
         imgName: "NAME.png",
+        explanation: "JWST will orbit the sun, a million miles away from Earth at the second Lagrange point.",//1.5 million
         answers: [
             {
                 description: "Earth",
@@ -270,7 +286,7 @@ const factsData = [
                 correct: false
             },
             {
-                description: "Sun", //Answer: Sun Explanation: As per NASA, the James Webb Space Telescope will not be in orbit around the Earth, like the Hubble Telescope is, and it will actually orbiting the Sun, 1.5 million kilometers away from the Earth at what is called the second Lagrange Point or L2.
+                description: "Sun",
                 correct: true
             },
         ]
@@ -281,6 +297,7 @@ const factsData = [
         id: 16,
         question: "What shape is the James Webb Space Telescope Primary Mirror?",
         imgName: "NAME.png",
+        explanation: "Explanation: The Webb Telescope Team had decided to build the mirror in segments on a structure which folds up so that it can fit into the rocket. Each of the 18 Hexagonal-shaped mirror segments is 1.32 meters in diameter, flat to flat.",
         answers: [
             {
                 description: "Rectangular.",
@@ -291,7 +308,7 @@ const factsData = [
                 correct: false
             },
             {
-                description: "Hexagonal-shaped.", //Explanation: The Webb Telescope Team had decided to build the mirror in segments on a structure which folds up so that it can fit into the rocket. Each of the 18 Hexagonal-shaped mirror segments is 1.32 meters in diameter, flat to flat.
+                description: "Hexagonal-shaped.", 
                 correct: true
             },
             {
@@ -305,17 +322,18 @@ const factsData = [
         id: 17,
         question: "In what range does JWST operate?",
         imgName: "NAME.png",
+        explanation: "JWST's wavelength range covered by the scientific instruments will be from about 0.6 μm to 28.5 μm (visible to the near-mid infrared light).",
         answers: [
             {
                 description: "Visible.",
                 correct: false
             },
             {
-                description: "Mid-infrared.",
+                description: "Near-mid infrared.",
                 correct: true
             },
             {
-                description: "Far and near infrared.",
+                description: "Far-near infrared.",
                 correct: false
             },
             {
@@ -329,6 +347,7 @@ const factsData = [
         id: 18,
         question: "JWST is named after James Edwin Webb, who was he?",
         imgName: "NAME.png",
+        explanation: "JWST is named after James Edwin Webb, the second head of NASA, responsible for Apollo mission’s success.",
         answers: [
             {
                 description: "President of the USA.",
@@ -343,7 +362,7 @@ const factsData = [
                 correct: false
             },
             {
-                description: "NASA Administrator.",  //James Webb Space Telescope is named after James E. Webb. He was the administrator of NASA from 1961 to 1968 during the Mercury, Gemini and Apollo Programs.
+                description: "NASA Administrator.",
                 correct: true
             },
         ]
@@ -353,6 +372,7 @@ const factsData = [
         id: 19,
         question: "How far JWST is located from the earth?",
         imgName: "NAME.png",
+        explanation: "JWST orbits the sun, 1.5 million kms away from Earth at the second Lagrange point.",
         answers: [
             {
                 description: "10 million km.",
@@ -377,6 +397,7 @@ const factsData = [
         id: 20,
         question: "How long did it take after launch for JWST to reach it's working condition?",
         imgName: "NAME.png",
+        explanation: "On 24 January 2022, at 2:00 p.m. EST, nearly a month after launch, a third and final course correction took place, inserting JWST into its planned halo orbit around the Sun–Earth L2 point.",
         answers: [
             {
                 description: "1 month.",

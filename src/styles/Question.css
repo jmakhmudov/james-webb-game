@@ -16,5 +16,9 @@
 }
 
 .question-box .play-btn {
-    width: 250px;
+    width: 280px;
+    padding: 0 5px;
+    min-height: 60px;
+    height: auto;
+    transition: 150ms;
 }
