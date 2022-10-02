@@ -16,7 +16,7 @@ export default function StartMission() {
                 :
                 <div className="start-mission" style={{
                     background: `url('${process.env.PUBLIC_URL}/images/bckg/1.png')`,
-                    backgroundPosition: "center",
+                    backgroundPosition: "top center",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover"}}>
                     <p className="start-btn" onClick={handleClick}>START MISSION</p>

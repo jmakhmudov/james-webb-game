@@ -5,10 +5,13 @@ import Explanation from "./Explanation";
 import Question from "./Question";
 import factsData from "../datas/factsData";
 import missions from "../datas/missions";
+import TheEnd from "./TheEnd";
 
 
 export default function QuizMain() {
     const [next, setNext] = React.useState(false)
+    const [incorr, setIncorr] = React.useState(0)
+    const [end, setEnd] = React.useState(false)
     const [elements, setElements] = React.useState([])
     const [ques, setQues] = React.useState([])
     const [count, setCount] = React.useState(0)
@@ -69,25 +72,45 @@ export default function QuizMain() {
                         explanation: factsData[intNum].explanation
                     }
                 })
+                if (!factsData[intNum].answers[i].correct){
+                    setIncorr(prev => prev+1)
+                } 
+                    
             }
         }
-        setNext(true)
+        
+        incorr<2 ? setNext(true) : setEnd(true)
     }
 
     function nextQuestion() {
         insertQuestion()
-        setNext(false)
+        
+        if (count<7) {
+            setCount(prev => prev+1)
+            setNext(false)
+        }
+        else {
+            setEnd(true)
+        }
+
+        
     }
 
     return (
-        <div className="quiz-main" style={{background: `url('${process.env.PUBLIC_URL}/images/bckg/${Math.floor(Math.random() * (5 - 1 + 1) + 1)}.png')`,
+        <div className="quiz-main" style={incorr<3?{backgroundImage: `url('${process.env.PUBLIC_URL}/images/bckg/${Math.floor(Math.random() * (6 - 1 + 1) + 1)}.png')`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover"}: {backgroundImage: `url('${process.env.PUBLIC_URL}/images/lost.png')`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover"}}>
 
             <Header/>
             {
-                next ?
+                end ?
+                <TheEnd incorr={incorr}/>
+                :
+                (next ?
                 <Explanation data={data} handleClick={nextQuestion}/>
                 :
                 <Question 
@@ -95,7 +118,7 @@ export default function QuizMain() {
                     elements={elements} 
                     rndInt={data.rndInt}
                     mission={mission}
-                />
+                />)
 
             }
             <p className="onegate">powered by <span>ONEGATE</span></p>
