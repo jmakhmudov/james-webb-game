@@ -20,8 +20,8 @@ export default function StartQuiz() {
                 :
                 <div 
                     className="start-quiz" 
-                    style={{background: `url('${process.env.PUBLIC_URL}/images/stephansQuintet.png')`,
-                    backgroundPosition: "center",
+                    style={{background: `url('${process.env.PUBLIC_URL}/images/launch.png')`,
+                    backgroundPosition: "top center",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover"}}
                 >

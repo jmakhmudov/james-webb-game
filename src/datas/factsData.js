@@ -41,22 +41,22 @@ const factsData = [
         ]
     },
 
-    // {
-    //     id: 3,
-    //     question: "JWST is named after James Edwin Webb, the second head of NASA responsible for Apollo mission’s success.",
-    //     imgName: "NAME.png",
-    //     explanation: "",
-    //     answers: [
-    //         {
-    //             description: "True",
-    //             correct: true
-    //         },
-    //         {
-    //             description: "False",
-    //             correct: false
-    //         },
-    //     ]
-    // },
+    {
+        id: 3,
+        question: "JWST is named after James Edwin Webb, the second head of NASA responsible for Apollo mission’s success.",
+        imgName: "NAME.png",
+        explanation: "",
+        answers: [
+            {
+                description: "True",
+                correct: true
+            },
+            {
+                description: "False",
+                correct: false
+            },
+        ]
+    },
 
     {
         id: 4,

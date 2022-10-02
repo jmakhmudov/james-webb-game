@@ -11,7 +11,7 @@ export default function Loading() {
             <TypeAnimation
             sequence={[
                 "Flying through interstellar space",
-                5000
+                3000
             ]}
             wrapper="div"
             cursor={true}
